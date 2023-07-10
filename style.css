@@ -1,0 +1,341 @@
+
+body {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: conic-gradient(from 20deg, rgba(223, 168, 168, 1) 18deg, rgba(193, 199, 197, 1) 68deg, rgba(108, 199, 221, 1) 151deg, rgba(177, 151, 223, 1) 263deg, rgba(122, 197, 216, 1) 295deg, rgba(223, 168, 168, 1) 360deg);
+
+}
+.bg{
+    height: 98%;
+    width: 100%;
+
+}
+.triangle {
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 60px solid #d1e2eb;
+    border-right: 0;
+    float:left;
+}
+.telo
+{
+    margin-top: -3px;
+    margin-left: 136px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.name {
+    margin-top: -28px;
+    margin-left: 30px;
+
+    display: inline-flex;
+
+    line-height: 1;
+    color: rgba(216, 235, 207, 1);
+    font-size: 35px;
+    text-shadow: 4px 0px 3px rgba(26, 136, 103, 0.8);
+    font-weight: bold;
+    margin-bottom: -40px;
+
+}
+.original-box-shadow {
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    background-color: #718eb880;
+    padding: 25px;
+    width: auto;
+    border-radius: 3px;
+    box-shadow: inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 65%;
+    margin-top: 20%;
+}
+
+.navbar_main{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.navbar_main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar_main li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar_top li{
+    display: inline;
+    margin-right: 15px;
+
+}
+.navbar_top{
+    display: contents;
+    float: left;
+    top: 0px;
+    margin-top: 0;
+    
+}
+.navbar_top img{
+    position:  absolute;;
+    width: 41px;
+}
+.glaven_naslov
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #b8d8ee;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-bottom: 5px solid #c9a9e6d2;
+    transition: 0.3s;
+    background-color: #b471ebda;
+}
+
+.btn:hover {
+    border-bottom-width: 0;
+    transform: translateY(5px);
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+.footer{
+    position: fixed;
+    
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+    width: 96%;
+    border-radius: 30px;
+    background-image: linear-gradient(4deg, rgba(138, 255, 54, 0.3), rgba(255, 255, 255, 0) 62%), linear-gradient(185deg, rgba(54, 255, 224, 0.8), rgba(255, 255, 255, 0)), radial-gradient(closest-corner, rgba(63, 236, 93, 0) 100%, rgba(255, 255, 255, 0));text-align: center;
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    word-spacing: -0.6px;
+    color: #F8FFF6;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.intro
+{
+    display: inline-block;
+    width: 400px;
+    margin-left: 50px;
+
+
+}
+.zoshto{
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 164px;
+    margin-left: 20%;
+margin-top: 30px;;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+
+.skills{
+    position: relative;
+    float: right;
+    margin-top: -333px;
+    margin-right: 700px;
+    
+
+    
+}
+.video
+{
+    position: relative;
+    float: right;
+    margin-top: 13px;
+    margin-right: 280px;
+
+    
+  border: 5px solid #5248a5;
+  overflow: hidden;
+  width: 572px;
+    height: 314px;
+}
+
+    
+
+.video video
+{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hob1{
+    display: inline-block;
+  margin: 15px;  
+    
+}
+.hob1 img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hob1 img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hob1 p {
+    
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+  
+  .hob1 p:hover {
+    background-color: #ff5a5f;
+    color: #fff;
+  }
+  
+
+.slika{
+    border: 5px solid #8278dd;
+    overflow: hidden;
+    width: 572px;
+      height: 314px;
+}
+form {
+    position: relative;
+    margin-left: 100px;
+    border: 2px solid #8278dd;
+    padding: 20px;
+    width: 500px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 280px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+   
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+  input[type="submit"] {
+    background-color: #8278dd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6c63b7;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .resurs1 {
+    width: 500px;
+    height: 350px;
+    border: 2px solid #eeaeae;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  .resurs1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .resurs1:hover {
+    transform: scale(1.05);
+  }
+  
+  .strani{
+    margin-top: 200px;
+    margin-bottom: 500px;
+  }
+
+
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #a4dee796;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skills li:hover {
+    background-color: #a1cfe441;
+  }
+
+
+  .zoshto:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
